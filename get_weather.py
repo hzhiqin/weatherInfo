@@ -32,4 +32,5 @@ for thread in threads:
 
 for thread in threads:
     print("it is {0.temperature:.0f}°C in {0.city}".format(thread))
-    print("Got {} temps in {} seconds".format(len(threads), time.time() - start))
+    
+print("Got {} temps in {} seconds".format(len(threads), time.time() - start))
